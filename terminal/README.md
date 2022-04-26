@@ -84,6 +84,8 @@ winget install JanDeDobbeleer.OhMyPosh
 键入示例代码并保存
 
 ```powershell
+Import-Module oh-my-posh
+
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH/unicorn.omp.json | Invoke-Expression
 ```
 
@@ -114,4 +116,3 @@ Set-PSReadLineOption -PredictionSource History
 
 ## 预览
 
-![image-20220426164710798](img/README/image-20220426164710798.png)

@@ -97,6 +97,7 @@ oh-my-posh init pwsh --config $env:POSH_THEMES_PATH/unicorn.omp.json | Invoke-Ex
 
 ```powershell
 Install-Module -Name PowerShellGet -Force
+Install-Module PSReadLine
 ```
 
 安装完成后编辑 `Microsoft.PowerShell_profile.ps1`，添加如下代码并保存

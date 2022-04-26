@@ -109,3 +109,9 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 # Set History Hints
 Set-PSReadLineOption -PredictionSource History
 ```
+
+
+
+## 预览
+
+![image-20220426164710798](img/README/image-20220426164710798.png)

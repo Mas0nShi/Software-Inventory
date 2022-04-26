@@ -12,20 +12,20 @@ My software inventory for Windows.
 
 
 
-## Developer Kits🛠️
+## Developer Kits 🛠️
 
-- PowerShell & Windows Terminal 👉[Config](terminal/README.md)
+- [PowerShell](https://github.com/PowerShell/PowerShell) & Windows Terminal 👉[Config](terminal/README.md)
 - [WSL2](https://docs.microsoft.com/zh-cn/windows/wsl/install) & Ubuntu
 - [VMware Workstation Player](https://www.vmware.com/cn/products/workstation-player/workstation-player-evaluation.html)
 - [Python](https://www.python.org/downloads/)
 - [Node.js](https://nodejs.org/en/)
-- [JDK]([Java Downloads | Oracle](https://www.oracle.com/java/technologies/downloads/))
+- [JDK](https://www.oracle.com/java/technologies/downloads/)
 - [Jetbrains IDEs](https://www.jetbrains.com/): e.g. IntelliJ IDEA, PyCharm, GoLand, CLion and WebStorm.
 - [Android Studio](https://developer.android.com/studio)
 - [Git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-## Efficiency Tools⚡
+## Efficiency Tools ⚡
 
 - [Internet Download Manager](https://www.internetdownloadmanager.com/download.html)
 - [uTools](https://u.tools/)
@@ -33,18 +33,17 @@ My software inventory for Windows.
 
 
 
-## Edit Tools📝
+## Edit Tools 📝
 
 - [notepad++](https://notepad-plus-plus.org/)
 - [010editor](https://www.sweetscape.com/010editor/)
 - [Beyond Compare](https://scootersoftware.com/)
 - [Typora](https://typora.io/)
 - Microsoft Office Kits
-- 
 
 
 
-## Other
+## Others
 
 - [Bandizip](https://www.bandisoft.com/bandizip/)
 - [7-Zip](https://www.7-zip.org/)
@@ -57,4 +56,12 @@ My software inventory for Windows.
 
 - Frida
 - IDA Pro
-- 
+- ……
+
+
+
+## More?
+
+- Add from time to time.
+- For my PC.
+- If you have a better recommendation, maybe you can tell me <3.

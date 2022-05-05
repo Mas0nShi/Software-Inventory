@@ -20,4 +20,4 @@ source .quick_proxy
 
 ## 使用截图
 
-![]
+![](screenshot.png)

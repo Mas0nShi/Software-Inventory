@@ -16,7 +16,7 @@
 
 参考配色方案：[Windows Terminal Themes](https://windowsterminalthemes.dev/)
 
-点击`Download .json of themes`下载全部配色方案
+点击**Download .json of themes**下载全部配色方案
 
 点击**打开JSON文件**
 
@@ -118,3 +118,8 @@ Set-PSReadLineOption -PredictionSource History
 ## 预览
 
 ![screenshot](img/README/screenshot.gif)
+
+
+
+### 个人配置
+

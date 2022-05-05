@@ -1,0 +1,48 @@
+#/bin/sh
+
+QUICK_HOME_IP_ADDR=192.168.0.103
+QUICK_SCHOOL_IP_ADDR=192.168.3.3
+QUICK_V2RAY_PORT=9002
+
+QUICK_COLOR_GREEN="\033[32m"
+QUICK_COLOR_RED="\033[31m"
+QUICK_COLOR_END="\033[0m"
+
+
+
+function Qptest() {
+	if [[ $(ping -w 1 ${QUICK_SCHOOL_IP_ADDR} | grep '1 received') ]]
+	then
+		echo -e "[DETECT] ${QUICK_COLOR_GREEN}SCHOOL${QUICK_COLOR_END}"
+	elif [[ $(ping -w 1 ${QUICK_HOME_IP_ADDR} | grep '1 received') ]]
+	then
+		echo -e "[DETECT] ${QUICK_COLOR_GREEN}HOME${QUICK_COLOR_END}"
+	else
+		echo -e "[DETECT] ${QUICK_COLOR_RED}UNKNOWN${QUICK_COLOR_END}"
+	fi
+}
+
+function Qpon() {
+	if [[ $(ping -w 1 ${QUICK_SCHOOL_IP_ADDR} | grep '1 received') ]]
+	then
+		export http_proxy="http://${QUICK_SCHOOL_IP_ADDR}:${QUICK_V2RAY_PORT}"
+		echo -e "[${QUICK_COLOR_GREEN}SUCCESS${QUICK_COLOR_END}] Quick set Proxy -> ${http_proxy}"
+	elif [[ $(ping -w 1 ${QUICK_HOME_IP_ADDR} | grep '1 received') ]]
+	then
+		export http_proxy="http://${QUICK_HOME_IP_ADDR}:${QUICK_V2RAY_PORT}"
+		echo -e "[${QUICK_COLOR_GREEN}SUCCESS${QUICK_COLOR_END}] Quick set Proxy -> ${http_proxy}"
+	else
+		echo -e "[${QUICK_COLOR_RED}FAIL${QUICK_COLOR_END}] Quick set Proxy -> UNKNOWN IP ADDR"
+
+	fi
+}
+
+function Qpoff() {
+	if [[ ${http_proxy} ]]
+	then
+		echo -e "[${QUICK_COLOR_GREEN}SUCCESS${QUICK_COLOR_END}] Quick remove Proxy -> ${http_proxy}"
+		unset http_proxy
+	else
+		echo -e "[${QUICK_COLOR_RED}FAIL${QUICK_COLOR_END}] Quick set Proxy -> Not set Proxy"
+	fi
+}

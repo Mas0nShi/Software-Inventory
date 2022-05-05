@@ -119,7 +119,3 @@ Set-PSReadLineOption -PredictionSource History
 
 ![screenshot](img/README/screenshot.gif)
 
-
-
-### 个人配置
-

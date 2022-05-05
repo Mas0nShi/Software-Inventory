@@ -7,7 +7,7 @@
 
 
 
-使用方式
+## 使用方式
 
 ```shell
 source .quick_proxy
@@ -17,3 +17,7 @@ source .quick_proxy
 - Qptest 探测当前网络环境
 - Qpon 使用代理
 - Qpoff 取消代理
+
+## 使用截图
+
+![]

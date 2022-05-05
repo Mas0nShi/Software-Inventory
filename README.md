@@ -14,7 +14,7 @@ My software inventory for Windows.
 
 ## Developer Kits 🛠️
 
-- [PowerShell](https://github.com/PowerShell/PowerShell) & Windows Terminal 👉[Config](terminal/README.md)
+- [PowerShell](https://github.com/PowerShell/PowerShell) & Windows Terminal ❤️ [config](terminal/README.md)
 - [WSL2](https://docs.microsoft.com/zh-cn/windows/wsl/install) & Ubuntu
 - [VMware Workstation Player](https://www.vmware.com/cn/products/workstation-player/workstation-player-evaluation.html)
 - [Python](https://www.python.org/downloads/)
@@ -35,7 +35,7 @@ My software inventory for Windows.
 
 ## Edit Tools 📝
 
-- [notepad++](https://notepad-plus-plus.org/)
+- [notepad++](https://notepad-plus-plus.org/) ❤️ [config](notepad++/README.md)
 - [010editor](https://www.sweetscape.com/010editor/)
 - [Beyond Compare](https://scootersoftware.com/)
 - [Typora](https://typora.io/)

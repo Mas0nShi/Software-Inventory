@@ -49,6 +49,7 @@ My software inventory for Windows.
 - [7-Zip](https://www.7-zip.org/)
 - [MacType](https://www.mactype.net/)
 - [ScreenToGif](https://www.screentogif.com/)
+- [Coaster](https://heycoaster.com/)
 
 
 
